@@ -170,6 +170,9 @@ def station_throughput_trigger(stationThroughput: str, recentAverageRows: func.S
     row = list(map(lambda r: json.loads(r.to_json()), highestEverThroughputRows)).pop()
     file.write(f"The highest ever throughput per unit time was {row['quantity']} people at {stations[row['stationId']]} station at {row['time']}. That is {row['quantity'] - allTimeAverageRow['allTimeAverageQuantity']} more than the average\n")
 
+    #following code is adapted from a snippet from an azure article 
+    # Microsoft. 2024. Quickstart: Azure Blob Storage client library for Python. [Online]. [Accessed 20 November 2024]. Available from: https://learn.microsoft.com/en-us/azure/storage
+
     # try to upload the file to blob storage
     try:
         account_url = "https://comp3211blobstorage.blob.core.windows.net"
