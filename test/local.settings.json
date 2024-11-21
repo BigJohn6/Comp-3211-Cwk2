@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=courseworka1d5;AccountKey=bP+GPP5D9S8RMKCvgEbN+nFgV7fKp8qbfk+7wwJ8xNw5/Ap0ppmjriaNk22Zlj7G+9Rf4q0bJN94+AStobz7JA==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=courseworka1d5;AccountKey=bP+GPP5D9S8RMKCvgEbN+nFgV7fKp8qbfk+7wwJ8xNw5/Ap0ppmjriaNk22Zlj7G+9Rf4q0bJN94+AStobz7JA==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE": "comp3211-james-iot81fa",
+    "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=db4e8a3e-298d-47a9-b32a-6849ae185acc;IngestionEndpoint=https://ukwest-0.in.applicationinsights.azure.com/;LiveEndpoint=https://ukwest.livediagnostics.monitor.azure.com/;ApplicationId=5834b38e-329c-4acf-9649-9f06aaf8fcb4",
+    "SqlConnectionString": "Server=tcp:comp3211-james.database.windows.net,1433;Initial Catalog=myDatabase;Persist Security Info=False;User ID=James;Password=Password!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  }
+}
